@@ -98,7 +98,7 @@ body::before{content:'';position:fixed;inset:0;background:url("data:image/svg+xm
 @keyframes scrollBounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
 
 /* ======================== 3D SECTION ======================== */
-#threed{position:relative;height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#0B0B0B}
+#threed{position:relative;height:50vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#0B0B0B}
 #threed-canvas{position:absolute;inset:0;width:100%;height:100%;opacity:0.85}
 .threed-overlay{position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 30%,var(--black) 80%);pointer-events:none}
 .threed-text{position:absolute;right:10%;top:50%;transform:translateY(-50%);text-align:right;z-index:2}
@@ -832,6 +832,7 @@ margin-top: 2rem;
 }
 body .promo-banner + #hero{
     margin-top: 0;
+    display: none;
 }
    #hero{
     margin-top: 2rem;
